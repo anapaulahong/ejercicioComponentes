@@ -1,4 +1,4 @@
-import Card from './card.js'
+
 
 function App(){
   return(
@@ -6,4 +6,4 @@ function App(){
   )
 }
 
-export default App
+ReactDOM.render(<App/>,document.getElementById("app"))
