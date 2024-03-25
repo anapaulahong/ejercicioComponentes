@@ -1,7 +1,5 @@
 function Header() {
     return (
-      <div>
-        <h1>Header</h1>
-      </div>
+      <div id="header" style={{height:"60px", width:"100px", backgroundColor:"blue"}}></div>
     );
   }

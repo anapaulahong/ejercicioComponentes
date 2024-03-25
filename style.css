@@ -5,6 +5,8 @@
     padding: 20px;
     margin: 10px;
     max-width: 300px;
+    flex: 1; /* Hace que el componente Card ocupe todo el espacio restante */
+    margin-left: 10px;
 }
 
 .card .card-image{
@@ -22,5 +24,37 @@
 
 .card .card-text{
     font-family: Arial, sans-serif;
-    color: hsl(0, 0%, 30%);
+    color: black;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+body {
+    display: flex;
+}
+
+#sidebar {
+    flex: 0 0 auto; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+#app {
+    flex: 1;
+}
+
+#header {
+    height: 60px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }

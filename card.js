@@ -3,8 +3,9 @@
 function Card(){
   return(
     <div class="card">
-      <h2 class="card-title">nombre: paula</h2>
-      <p class="card-text">descripcion: tarjetita</p>
+      <img src="./yop.jpeg"></img>
+      <p class="card-title">nombre: paula</p>
+      <p class="card-text">descripcion: estudiante de computer science</p>
     </div>
   )
 }
